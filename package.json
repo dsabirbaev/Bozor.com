@@ -1,0 +1,27 @@
+{
+  "name": "startertemplate",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.6.5",
+    "pinia": "^2.1.7",
+    "primeicons": "^6.0.1",
+    "primevue": "^3.46.0",
+    "sass": "^1.69.7",
+    "vue": "^3.4.7",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.11"
+  }
+}

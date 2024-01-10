@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+  
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+body {
+    font-family: InterRgular;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+
+@font-face {
+    font-family: InterRegular;
+    src: url(./assets/fonts/Inter/Inter-Regular.ttf);
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
