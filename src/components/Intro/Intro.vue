@@ -48,11 +48,11 @@
     .p-carousel-next{
         background-color: #FFFFFF8C;
         position: absolute;
-        right: 40px;
+        right: 20px;
         top: 50%;
         z-index: 40;
         width: 40px;
         height: 40px;
-        transform: translate(-50%, -50%);
+        transform: translate(0%, -50%);
     }
 </style>

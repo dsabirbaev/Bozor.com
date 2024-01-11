@@ -7,9 +7,9 @@
             </a>
 
             <div class="flex items-center justify-between">
-                <a href="/catalog" title="Katalog" class="text-[12px] text-[#2B4FAB] flex items-center gap-x-1 py-[13px] px-[24px] rounded-md border-solid border-2 border-gray-100 font-bold">
+                <a href="/catalog" title="Katalog" class="text-[12px] text-[#2B4FAB] flex items-center gap-x-2 py-[13px] px-[24px] rounded-md border-solid border-2 border-gray-100 font-bold">
                     <span class="pi pi-th-large"></span> 
-                    <span>Katalog</span>
+                    <span class="font-['TTInterfaceSemiBold']">Katalog</span>
                 </a>
             </div>
 
@@ -18,6 +18,10 @@
                 <input class="placeholder:text-gray-400 ml-[16px] border-none outline-none bg-transparent" type="text" placeholder="Mahsulotlarni topish" autocomplete="off">
             </div>
 
+            <button class="bg-[#2B4FAB] text-white text-[12px] font-['TTInterfaceSemiBold'] flex gap-x-2 rounded-md py-[16px] px-[20px] border-none outline-none">
+                <span class="pi pi-telegram"></span>
+                <span>Manzilini kiriting</span>
+            </button>
             <div class="flex items-center gap-x-1 text-[12px] rounded-md bg-[#F5F7FA] py-[16px] px-[13px]">
                 <p class="text-[#2B4FAB]">UZS</p>
                 <span class="pi pi-angle-down text-[#2B4FAB]"></span>

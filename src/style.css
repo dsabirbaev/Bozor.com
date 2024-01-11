@@ -20,7 +20,7 @@ ul {
 
 
 body {
-    font-family: InterRgular;
+    font-family: TTInterfaceRegular;
     font-weight: 400;
     overflow-x: hidden;
     background-color: #F5F7FA;
@@ -30,6 +30,26 @@ body {
 @font-face {
     font-family: InterRegular;
     src: url(./assets/fonts/Inter/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: TTInterfaceRegular;
+    src: url(./assets/fonts/TTInterface/TTInterfaces-Regular.ttf);
+}
+
+@font-face {
+    font-family: TTInterfaceMedium;
+    src: url(./assets/fonts/TTInterface/TTInterfaces-Medium.ttf);
+}
+
+@font-face {
+    font-family: TTInterfaceSemiBold;
+    src: url(./assets/fonts/TTInterface/TTInterfaces-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: TTInterfaceBold;
+    src: url(./assets/fonts/TTInterface/TTInterfaces-Bold.ttf);
 }
 
 .container {
