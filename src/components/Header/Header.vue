@@ -18,7 +18,7 @@
                 <input class="placeholder:text-gray-400 ml-[16px] border-none outline-none bg-transparent" type="text" placeholder="Mahsulotlarni topish" autocomplete="off">
             </div>
 
-            <button class="bg-[#2B4FAB] text-white text-[12px] font-['TTInterfaceSemiBold'] flex gap-x-2 rounded-md py-[16px] px-[20px] border-none outline-none">
+            <button class="bg-[#2B4FAB] cursor-pointer hover:opacity-[0.8] transition-opacity text-white text-[12px] font-['TTInterfaceSemiBold'] flex gap-x-2 rounded-md py-[16px] px-[20px] border-none outline-none">
                 <span class="pi pi-telegram"></span>
                 <span>Manzilini kiriting</span>
             </button>
