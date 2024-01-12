@@ -1,5 +1,5 @@
 
 
 import CatalogCard from "./CatalogCard.vue"
-
-export { CatalogCard };
+import TopProductCard from "./TopProductCard.vue"
+export { CatalogCard, TopProductCard };

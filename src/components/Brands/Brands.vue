@@ -3,7 +3,7 @@
         <div class="container">
             <div class="flex flex-col">
                 <div class="flex justify-between items-center mb-5">
-                    <p class="font-['TTInterfaceBold'] text-[20px]">Brendlar</p>
+                    <h2 class="font-['TTInterfaceBold'] text-[20px]">Brendlar</h2>
                     <a href="/brands" title="Brendlar" class="text-[#9a999b] text-[20px] font-['TTInterfaceMedium']">
                         Hammasini ko'rsatish
                     </a>
