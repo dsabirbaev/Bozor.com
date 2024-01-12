@@ -33,6 +33,11 @@ body {
 }
 
 @font-face {
+    font-family: TTInterfaceLight;
+    src: url(./assets/fonts/TTInterface/TTInterfaces-Light.ttf);
+}
+
+@font-face {
     font-family: TTInterfaceRegular;
     src: url(./assets/fonts/TTInterface/TTInterfaces-Regular.ttf);
 }
