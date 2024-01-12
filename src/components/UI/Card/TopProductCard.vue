@@ -1,8 +1,6 @@
-
-
 <template>
-    <div class="bg-indigo-700">
-       Card
+    <div>
+        top product
     </div>
 </template>
 
