@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="py-10">
         <div class="container">
             <h2 class="font-['TTInterfaceBold'] text-[20px] mb-5">Ommabop tovarlar</h2>
 
