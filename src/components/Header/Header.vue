@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-white">
+    <header :class="{ 'fixed-header': isFixed}" class="bg-white">
      <div class="container">
         <div class="flex items-center justify-between h-[78px]">
             <a href="/" title="Bosh sahifa">
@@ -44,9 +44,30 @@
 </template>
 
 <script setup>
+    import { ref, onMounted, onBeforeUnmount } from 'vue';
 
+    const isFixed = ref(false);
+
+    const handleScroll = () => {
+        const scrollY = window.scrollY;
+        isFixed.value = scrollY > 40;
+    };
+
+    onMounted(() => {
+        window.addEventListener('scroll', handleScroll);
+    });
+
+    onBeforeUnmount(() => {
+        window.removeEventListener('scroll', handleScroll);
+    });
 </script>
 
 <style lang="scss" scoped>
-
+    .fixed-header {
+        position: fixed;
+        z-index: 999999;
+        top: 0;
+        width: 100%;
+        
+    }
 </style>
