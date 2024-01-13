@@ -3,39 +3,39 @@
      <div class="container">
         <div class="flex items-center justify-between h-[78px]">
             <a href="/" title="Bosh sahifa">
-                <img src="https://bozor.com/_nuxt/img/logo.a6ecee7.webp" alt="Bozo.com logo">
+                <img class="w-[150px] h-[40px] object-contain"  src="https://bozor.com/_nuxt/img/logo.a6ecee7.webp" alt="Bozo.com logo">
             </a>
 
             <div class="flex items-center justify-between">
-                <a href="/catalog" title="Katalog" class="text-[12px] text-[#2B4FAB] flex items-center gap-x-2 py-[13px] px-[24px] rounded-md border-solid border-2 border-gray-100 font-bold">
+                <a href="/catalog" title="Katalog" class="text-[12px] text-[#2B4FAB] flex items-center gap-x-2 h-[45px] px-[24px] rounded-md border-solid border-2 border-gray-100 font-bold">
                     <span class="pi pi-th-large"></span> 
                     <span class="font-['TTInterfaceSemiBold']">Katalog</span>
                 </a>
             </div>
 
-            <div class="flex items-center rounded-md bg-[#F5F7FA] p-[16px] w-[288px]">
-                <span class="pi pi-search"></span>
-                <input class="placeholder:text-gray-400 ml-[16px] border-none outline-none bg-transparent" type="text" placeholder="Mahsulotlarni topish" autocomplete="off">
+            <div class="flex items-center rounded-md bg-[#F5F7FA] h-[45px] px-[22px] w-[340px]">
+                <span class="pi pi-search text-[#000000DE]"></span>
+                <input class="placeholder:text-gray-400 ml-[16px] border-none outline-none bg-transparent w-full" type="text" placeholder="Mahsulotlarni topish" autocomplete="off">
             </div>
 
-            <button class="bg-[#2B4FAB] cursor-pointer hover:opacity-[0.8] transition-opacity text-white text-[12px] font-['TTInterfaceSemiBold'] flex gap-x-2 rounded-md py-[16px] px-[20px] border-none outline-none">
+            <button class="bg-[#2B4FAB] cursor-pointer hover:opacity-[0.8] transition-opacity text-white text-[12px] font-['TTInterfaceSemiBold'] flex items-center justify-center gap-x-2 rounded-md h-[45px] w-[190px] border-none outline-none">
                 <span class="pi pi-telegram"></span>
                 <span>Manzilini kiriting</span>
             </button>
-            <div class="flex items-center gap-x-1 text-[12px] rounded-md bg-[#F5F7FA] py-[16px] px-[13px]">
+            <div class="flex items-center gap-x-1 text-[12px] rounded-md bg-[#F5F7FA] h-[45px] px-[13px]">
                 <p class="text-[#2B4FAB]">UZS</p>
                 <span class="pi pi-angle-down text-[#2B4FAB]"></span>
             </div>
 
-            <a href="/favorites" title="Saralanganlar" class="rounded-md bg-[#F5F7FA] py-[16px] px-[13px]">
+            <a href="/favorites" title="Saralanganlar" class="flex items-center rounded-md bg-[#F5F7FA] h-[45px] px-[13px]">
                 <span class="pi pi-heart text-[18px]"></span>
             </a>
 
-            <a href="/basket" title="Savat" class="rounded-md bg-[#F5F7FA] py-[16px] px-[13px]">
+            <a href="/basket" title="Savat" class="flex items-center rounded-md bg-[#F5F7FA] h-[45px] px-[13px]">
                 <span class="pi pi-shopping-cart text-[18px]"></span>
             </a>
 
-            <button title="Profil" class="rounded-md border-none bg-[#F5F7FA] py-[16px] px-[13px]">
+            <button title="Profil" class="rounded-md border-none bg-[#F5F7FA] h-[45px] px-[13px]">
                 <span class="pi pi-user text-[18px]"></span>
             </button>
         </div>

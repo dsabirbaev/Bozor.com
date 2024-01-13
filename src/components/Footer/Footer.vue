@@ -1,5 +1,5 @@
 <template>
-    <footer class="py-[48px]">
+    <footer class="pt-[48px] pb-3">
        <div class="container">
             <div class="flex flex-col gap-y-10">
                 <a class="text-center" href="/">
@@ -63,7 +63,7 @@
                 <div class="flex items-center justify-between">
                     <p class="text-[12px]"> © 2024 bozor.com Barcha huquqlar himoyalangan</p>
                     <a class="flex items-center justify-center rounded-md w-[42px] h-[42px] bg-[#F5F7FA]" href="https://t.me/bozor_com" target="_blank" title="Bozor.com telegram">
-                        <span class="pi pi-telegram text-blue-500 text-[16px]"></span>    
+                        <span class="pi pi-telegram text-blue-500 text-[18px]"></span>    
                     </a>
                 </div>
             </div>
