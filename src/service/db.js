@@ -88,5 +88,135 @@ const topProducts = [
         
 ];
 
-export { topProducts};
+
+const newProducts = [
+    {
+        id: 1,
+        text: "Exclusive osh tuzi 1 kg yirik",
+        price: "2 950",
+        img: "https://api.bozor.com/media/cache/43/31/4331a131dd27bbb0cd951fbfe64c4f7f.jpg",
+        count: "1"
+    },
+    {
+        id: 2,
+        text: "Lora saryog' shokoladli 200 gr 62%",
+        price: "23 200",
+        img: "https://api.bozor.com/media/cache/28/4b/284beaf6ef7b37650e2d33b3607ef9be.jpg",
+        count: "1"
+    },
+    {
+        id: 3,
+        text: "Fruto nyanya pyure 90 gr yabloko pechenem (sharlotka)",
+        price: "11 500",
+        img: "https://api.bozor.com/media/cache/7b/e5/7be588e7eafc891b017d6b9e75bc2997.jpg",
+        count: "12"
+    },
+    {
+        id: 4,
+        text: "Novot 10 kg qaymoq (mayda)",
+        price: "156 00",
+        img: "https://api.bozor.com/media/cache/71/14/7114f36e3ee0091fd411e2827d2fb0c2.jpg",
+        count: "1"
+    },
+    {
+        id: 5,
+        text: "Mosslad pechene 2 kg life molochni (oq skoch)",
+        price: "95 500",
+        img: "https://api.bozor.com/media/cache/44/6c/446c33de530f5cbdc45ed3f10aba56c9.jpg",
+        count: "1"
+    },
+    {
+        id: 6,
+        text: "Tort uchun salyut (6 donali katta)",
+        price: "20 700",
+        img: "https://api.bozor.com/media/cache/11/2f/112fdba15ab1fb3f95d16704c590ee4c.jpg",
+        count: "1"
+    }, 
+    {
+        id: 7,
+        text: "Shirin shakar konfet 2 kg choco mexxi",
+        price: "103 000",
+        img: "https://api.bozor.com/media/cache/0c/e8/0ce8f91e5fa172ece9d8b84ff6876d8d.jpg",
+        count: "1"
+    }, 
+    {
+        id: 8,
+        text: "Super Car kinder syurpriz (60 dona)",
+        price: "118 000",
+        img: "https://api.bozor.com/media/cache/88/6f/886f2f2d55ef9934f814451fab82d99a.jpg",
+        count: "8"
+    }, 
+    {
+        id: 9,
+        text: "Kafolat anti-jir 500 ml blestyashiy kazan",
+        price: "11 500",
+        img: "https://api.bozor.com/media/cache/42/6a/426ab741c8e8b6566a71402a140bf528.jpg",
+        count: "1"
+    }, 
+    {
+        id: 10,
+        text: "Sochnaya dolina 1 L banan yabloko",
+        price: "12 900",
+        img: "https://api.bozor.com/media/cache/46/80/4680361f00d49df3a93e5481e9344484.jpg",
+        count: "12"
+    }, 
+    {
+        id: 11,
+        text: "Aquafresh tish cho‘tkasi moi bolshiy zubki 3-5 let",
+        price: "19 200",
+        img: "https://api.bozor.com/media/cache/68/1b/681bddf689044427912f748040a4e0ae.jpg",
+        count: "12"
+    }, 
+    {
+        id: 12,
+        text: "Vostochniy Sad 1 L abrikos-vishniya",
+        price: "16 600",
+        img: "https://api.bozor.com/media/cache/62/f2/62f2ba33d59d367bb7cbe31a361324ae.jpg",
+        count: "6"
+    }, 
+    {
+        id: 13,
+        text: "Sergiyevskoye pista yog‘i 1 L",
+        price: "14 600",
+        img: "https://api.bozor.com/media/cache/fa/5a/fa5a00652068336d6607b00b63402076.jpg",
+        count: "6"
+    },  
+    {
+        id: 14,
+        text: "Rooster lollipop chupa chups (30 dona) xo'roz",
+        price: "43 400",
+        img: "https://api.bozor.com/media/cache/37/a4/37a463ea7c4fc161b042507e68d5f0a5.jpg",
+        count: "20"
+    },  
+    {
+        id: 15,
+        text: "Abril extra virgin zaytun yog‘i 0,25 L",
+        price: "45 500",
+        img: "https://api.bozor.com/media/cache/e5/07/e5077bf07c78e41665bf3f159d9fbbea.jpg",
+        count: "12"
+    },  
+    {
+        id: 16,
+        text: "Nano chistol 400 gr gornaya svejest",
+        price: "5 700",
+        img: "https://api.bozor.com/media/cache/66/34/66343cb661b5dc45cf034a7806449708.jpg",
+        count: "12"
+    },  
+    {
+        id: 17,
+        text: "Kolorada tabletka dlya bachka unitaz 45 gr violet lavander",
+        price: "10 900",
+        img: "https://api.bozor.com/media/cache/bc/b6/bcb6e8a04ca1a8f2bd7fd72676a10b47.jpg",
+        count: "24"
+    },  
+    {
+        id: 18,
+        text: "Prinsessa shampun 250 ml volshebniy lokoni",
+        price: "23 400",
+        img: "https://api.bozor.com/media/cache/ff/1c/ff1c3a37aba2e44d3d6a39ee1d123225.jpg",
+        count: "10"
+    },      
+];
+
+export { topProducts, newProducts};
 
