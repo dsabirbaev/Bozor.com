@@ -18,7 +18,7 @@
                     </div>
 
                     <a href="/catalog?show=ozi-ovat-masulotlari" class="text-[#2b4fab] underline text-[14px] font-['TTInterfaceMedium']" title="OZIQ OVQAT MAXSULOTLARI">
-                        Ko'proq
+                        {{ $t('ko\'proq') }}
                     </a>
                 </div>
                 <CatalogCard title="Smartfon, telefon, gadjet, aksesuarlar" name1="Radiotelefonlar" name2="Telefonlar" name3="Planshetlar" name4="Smartfonlar" img1="https://api.bozor.com/media/cache/07/1a/071a1e8cec1edc0ec8f59819649818ac.png" img2="https://api.bozor.com/media/cache/c9/c6/c9c673221bc244c4b17f46a574bcee42.png" img3="https://api.bozor.com/media/cache/a7/59/a7591063d640397a726b503d88752e1e.png" img4="https://api.bozor.com/media/cache/88/b3/88b3f9d881e06aef6be7857228a4b36f.png"/>
@@ -32,7 +32,7 @@
                     </div>
 
                     <a href="/catalog?show=ozi-ovat-masulotlari" class="text-[#2b4fab] underline text-[14px] font-['TTInterfaceMedium']" title="OZIQ OVQAT MAXSULOTLARI">
-                        Ko'proq
+                        {{ $t('ko\'proq') }}
                     </a>
                 </div>
             </div>

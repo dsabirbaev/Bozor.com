@@ -28,7 +28,7 @@
         </div>
 
         <a href="/catalog?show=ozi-ovat-masulotlari" class="text-[#2b4fab] underline text-[14px] font-['TTInterfaceMedium']" title="OZIQ OVQAT MAXSULOTLARI">
-            Ko'proq
+            {{ $t('ko\'proq') }}
         </a>
     </div>
 </template>

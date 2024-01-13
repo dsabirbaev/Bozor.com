@@ -9,18 +9,18 @@
             <div class="flex items-center justify-between">
                 <a href="/catalog" title="Katalog" class="text-[12px] text-[#2B4FAB] flex items-center gap-x-2 h-[45px] px-[24px] rounded-md border-solid border-2 border-gray-100 font-bold">
                     <span class="pi pi-th-large"></span> 
-                    <span class="font-['TTInterfaceSemiBold']">Katalog</span>
+                    <span class="font-['TTInterfaceSemiBold']">{{ $t('katalog') }}</span>
                 </a>
             </div>
 
             <div class="flex items-center rounded-md bg-[#F5F7FA] h-[45px] px-[22px] w-[340px]">
                 <span class="pi pi-search text-[#000000DE]"></span>
-                <input class="placeholder:text-gray-400 ml-[16px] border-none outline-none bg-transparent w-full" type="text" placeholder="Mahsulotlarni topish" autocomplete="off">
+                <input class="placeholder:text-gray-400 ml-[16px] border-none outline-none bg-transparent w-full" type="text" :placeholder="$t('mahsulotlarni topish')" autocomplete="off">
             </div>
 
             <button class="bg-[#2B4FAB] cursor-pointer hover:opacity-[0.8] transition-opacity text-white text-[12px] font-['TTInterfaceSemiBold'] flex items-center justify-center gap-x-2 rounded-md h-[45px] w-[190px] border-none outline-none">
                 <span class="pi pi-telegram"></span>
-                <span>Manzilini kiriting</span>
+                <span>{{ $t('manzilini kiriting') }}</span>
             </button>
             <div class="flex items-center gap-x-1 text-[12px] rounded-md bg-[#F5F7FA] h-[45px] px-[13px]">
                 <p class="text-[#2B4FAB]">UZS</p>

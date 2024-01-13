@@ -6,7 +6,7 @@
                 <div class="flex items-center space-x-1 text-[12px]">
                     <span class="pi pi-map-marker text-[#9A999B] text-[14px]"></span>
                     <span class="text-[#9A999B]">{{ $t('manzil') }} : </span>
-                    <p>Toshkent</p>
+                    <p>{{ $t('toshkent') }}</p>
                 </div>
                 <div class="flex items-center text-[12px] gap-x-5">
                     
