@@ -17,16 +17,11 @@ const router = createRouter({
           component: () => import('@pg/Home/Home.vue')
         },
         {
-          path: '/about',
-          name: 'about',
-          component: () => import('@pg/About/About.vue')
+          path: '/catalog',
+          name: 'catalog',
+          component: () => import('@pg/Catalog/Catalog.vue')
         },
       ]
-    },
-    {
-      path: "/login",
-      name: "login",
-      component: () => import("@pg/Login/Login.vue"), 
     },
    
     {

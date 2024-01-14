@@ -6,11 +6,11 @@
                 <img class="w-[150px] h-[40px] object-contain"  src="https://bozor.com/_nuxt/img/logo.a6ecee7.webp" alt="Bozo.com logo">
             </a>
 
-            <div class="flex items-center justify-between">
-                <a href="/catalog" title="Katalog" class="text-[12px] text-[#2B4FAB] flex items-center gap-x-2 h-[45px] px-[24px] rounded-md border-solid border-2 border-gray-100 font-bold">
+            <div class="flex items-center justify-between cursor-pointer">
+                <router-link to="/catalog" title="Katalog" class="text-[12px] text-[#2B4FAB] flex items-center gap-x-2 h-[45px] px-[24px] rounded-md border-solid border-2 border-gray-100 font-bold">
                     <span class="pi pi-th-large"></span> 
                     <span class="font-['TTInterfaceSemiBold']">{{ $t('katalog') }}</span>
-                </a>
+                </router-link>
             </div>
 
             <div class="flex items-center rounded-md bg-[#F5F7FA] h-[45px] px-[22px] w-[340px]">
