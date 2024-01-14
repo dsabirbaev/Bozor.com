@@ -29,7 +29,7 @@
                 <span class="pi pi-angle-down text-[#d2d9eb]"></span>
 
                 <div class="dropdown-menu  flex flex-col gap-y-5 absolute top-full left-[-20px] z-20 p-4 rounded-md w-[170px] bg-white">
-                    <p class="text-[16px] text-[#020105] font-['TTInterfaceSemiBold']">Valyutani tanlang</p>
+                    <p class="text-[16px] text-[#020105] font-['TTInterfaceSemiBold']">{{ $t('valyutani tanlang') }}</p>
                     <button class="flex items-center gap-x-3 bg-transparent border-none outline-none cursor-pointer">
                         <img src="data:image/webp;base64,UklGRlQBAABXRUJQVlA4WAoAAAAQAAAAIwAAFAAAQUxQSBcAAAABD/DA/4iIQJBtc4P501bgABH9T2jvEABWUDggFgEAAPAFAJ0BKiQAFQA+USaQRiOiIaElaABwCglmAMovXWzVsmgiHudA9QH6Vgua/xb885LEDoqJZKhoAP7xlrvARClwvz/kAtrV7D8b25q6Ldti/8e/+UxSt7M2BQ3bPM5BX/BYsvnS9Xt0wpp/Z2cGgHdUf2t/9g364f84AlfvL7spOLVdU8HWqKIDgVQNkerd3pXfXPr5SUxKV+G/50Of/AOOXZLhFF/7Uj4F/mnE9YIg5KD+5fsBP/6fw7xwNs4eI/8G4rOx+tSj+JzRbzRFiubv0A9bbAIAZhe/MezQN6mPfBkJ8MyP7bgwYwf82EX/90V/009uJqBT9JnZY7f/lt/Zl1R/N5dj+VH/7nA/jYkxlUFggAAA" width="25" height="15" alt="Usd"> 
                         <p class="text-[14px] font-['TTInterfaceMedium']">USD</p>

@@ -4,7 +4,7 @@
         
         <span class="absolute top-4 right-4 w-[30px] h-[30px] bg-[#F5F5F7] rounded-full flex items-center justify-center"><i class="pi pi-heart text-[12px]"></i></span>
         <button class="absolute top-[90px] right-5 bg-[#F5F5F7] backdrop-blur-[2px] block border-none outline-none text-[12px] font-['TTInterfaceMedium'] border-[8px] w-[80%] py-[12px] text-[#020105]">
-            Tezkor ko‘rish
+            {{ $t('tezkor korish') }}
         </button>
         <div class="p-[10px] flex flex-col justify-between">
             <div class="mb-2">

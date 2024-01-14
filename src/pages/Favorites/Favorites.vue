@@ -5,10 +5,10 @@
         <div class="container">
             <div class="catalog-banner h-[185px] flex items-center justify-center flex-col mb-10">
                 <router-link to="/" class="text-white text-[14px] font-['TTInterfaceMedium']" title="Bosh sahifa">
-                    Bosh sahifa
+                    {{ $t('bosh sahifa') }}
                 </router-link>
-                <h1 class="text-white font-['TTInterfaceBold'] text-[35px] my-[16px]">Saralanganlar</h1>
-                <p class="text-[16px] text-white font-['TTInterfaceSemiBold']">0 mahsulot</p>
+                <h1 class="text-white font-['TTInterfaceBold'] text-[35px] my-[16px]">{{ $t('saralanganlar') }}</h1>
+                <p class="text-[16px] text-white font-['TTInterfaceSemiBold']">0 {{ $t('mahsulot') }}</p>
             </div>
         </div>
     </section>
