@@ -35,8 +35,9 @@
                 <span class="pi pi-shopping-cart text-[18px]"></span>
             </router-link>
 
-            <button title="Profil" class="rounded-md border-none bg-[#F5F7FA] h-[45px] px-[13px]">
+            <button @click="openModal" title="Profil" class="cursor-pointer rounded-md border-none bg-[#F5F7FA] h-[45px] px-[13px]">
                 <span class="pi pi-user text-[18px]"></span>
+                <ProfilModal :visible="visible" @closeModal="closeModal" />
             </button>
         </div>
      </div>
@@ -47,6 +48,16 @@
 
 <script setup>
     import { ref, onMounted, onBeforeUnmount } from 'vue';
+    import {ProfilModal} from "@cmp/UI/Modal";
+    const visible = ref(false);
+
+    const openModal = () => {
+        visible.value = true;
+    };
+
+    const closeModal = () => {
+        visible.value = false;
+    };
 
     const isFixed = ref(false);
 
