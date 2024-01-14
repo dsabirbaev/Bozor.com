@@ -2,9 +2,9 @@
     <header :class="{ 'fixed-header': isFixed}" class="bg-white">
      <div class="container">
         <div class="flex items-center justify-between h-[78px]">
-            <a href="/" title="Bosh sahifa">
+            <router-link to="/" title="Bosh sahifa">
                 <img class="w-[150px] h-[40px] object-contain"  src="https://bozor.com/_nuxt/img/logo.a6ecee7.webp" alt="Bozo.com logo">
-            </a>
+            </router-link>
 
             <div class="flex items-center justify-between cursor-pointer">
                 <router-link to="/catalog" title="Katalog" class="text-[12px] text-[#2B4FAB] flex items-center gap-x-2 h-[45px] px-[24px] rounded-md border-solid border-2 border-gray-100 font-bold">
@@ -27,13 +27,13 @@
                 <span class="pi pi-angle-down text-[#2B4FAB]"></span>
             </div>
 
-            <a href="/favorites" title="Saralanganlar" class="flex items-center rounded-md bg-[#F5F7FA] h-[45px] px-[13px]">
+            <router-link to="/favorites" title="Saralanganlar" class="flex items-center rounded-md bg-[#F5F7FA] h-[45px] px-[13px]">
                 <span class="pi pi-heart text-[18px]"></span>
-            </a>
+            </router-link>
 
-            <a href="/basket" title="Savat" class="flex items-center rounded-md bg-[#F5F7FA] h-[45px] px-[13px]">
+            <router-link to="/basket" title="Savat" class="flex items-center rounded-md bg-[#F5F7FA] h-[45px] px-[13px]">
                 <span class="pi pi-shopping-cart text-[18px]"></span>
-            </a>
+            </router-link>
 
             <button title="Profil" class="rounded-md border-none bg-[#F5F7FA] h-[45px] px-[13px]">
                 <span class="pi pi-user text-[18px]"></span>

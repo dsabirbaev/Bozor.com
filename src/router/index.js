@@ -21,6 +21,16 @@ const router = createRouter({
           name: 'catalog',
           component: () => import('@pg/Catalog/Catalog.vue')
         },
+        {
+          path: '/favorites',
+          name: 'favorites',
+          component: () => import('@pg/Favorites/Favorites.vue')
+        },
+        {
+          path: '/basket',
+          name: 'basket',
+          component: () => import('@pg/Basket/Basket.vue')
+        },
       ]
     },
    
