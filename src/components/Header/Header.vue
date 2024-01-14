@@ -18,9 +18,10 @@
                 <input class="placeholder:text-gray-400 ml-[16px] border-none outline-none bg-transparent w-full" type="text" :placeholder="$t('mahsulotlarni topish')" autocomplete="off">
             </div>
 
-            <button class="bg-[#2B4FAB] cursor-pointer hover:opacity-[0.8] transition-opacity text-white text-[12px] font-['TTInterfaceSemiBold'] flex items-center justify-center gap-x-2 rounded-md h-[45px] w-[190px] border-none outline-none">
+            <button @click="openModalAddress" class="bg-[#2B4FAB] cursor-pointer hover:opacity-[0.8] transition-opacity text-white text-[12px] font-['TTInterfaceSemiBold'] flex items-center justify-center gap-x-2 rounded-md h-[45px] w-[190px] border-none outline-none">
                 <span class="pi pi-telegram"></span>
                 <span>{{ $t('manzilini kiriting') }}</span>
+                <AddressModal :visibleAddress="visibleAddress" @closeModalAddress="closeModalAddress" />
             </button>
             <div class="flex items-center gap-x-1 text-[12px] rounded-md bg-[#F5F7FA] h-[45px] px-[13px]">
                 <p class="text-[#2B4FAB]">UZS</p>
@@ -48,17 +49,29 @@
 
 <script setup>
     import { ref, onMounted, onBeforeUnmount } from 'vue';
-    import {ProfilModal} from "@cmp/UI/Modal";
+    import {ProfilModal, AddressModal} from "@cmp/UI/Modal";
+    
+    /// profile modal
     const visible = ref(false);
-
     const openModal = () => {
         visible.value = true;
     };
-
     const closeModal = () => {
         visible.value = false;
     };
 
+
+    /// address modal
+
+    const visibleAddress = ref(false);
+    const openModalAddress = () => {
+        visibleAddress.value = true;
+    };
+    const closeModalAddress = () => {
+        visibleAddress.value = false;
+    };
+
+    ////////////////////
     const isFixed = ref(false);
 
     const handleScroll = () => {

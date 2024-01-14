@@ -2,5 +2,6 @@
 
 
 import ProfilModal from "./ProfilModal.vue";
+import AddressModal from "./AddressModal.vue"
 
-export { ProfilModal };
+export { ProfilModal, AddressModal };
