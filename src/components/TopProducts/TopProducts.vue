@@ -4,10 +4,7 @@
             <h2 class="font-['TTInterfaceBold'] text-[20px] mb-5">{{ $t('ommabop tovarlar') }}</h2>
 
             <div class="grid grid-cols-6 gap-y-6 ">
-                <div v-for="product in topProducts" :key="product.id">
-                    <TopProductCard :data="product"/>
-                </div>
-                
+                <TopProductCard  v-for="product in topProducts" :key="product.id" :data="product"/>     
             </div>
         </div>
     </section>

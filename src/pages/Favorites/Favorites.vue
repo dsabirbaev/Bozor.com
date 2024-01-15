@@ -15,7 +15,11 @@
 </template>
   
 <script setup>
+     import { useTitle } from '@vueuse/core'
 
+    const title = useTitle()
+    title.value = "Bozor.com | Saralanganlar"
+    useTitle(title)
 </script>
   
 <style lang="scss" scoped>
