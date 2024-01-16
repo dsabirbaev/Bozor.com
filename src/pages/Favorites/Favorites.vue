@@ -24,7 +24,7 @@
 
                 <div>
                     <div class="bg-white w-[300px] rounded-[20px] py-[32px] px-[24px]">
-                        <h2>Katalog</h2>
+                        <h2 class="text-[#353437] font-['TTInterfaceBold'] text-[24px] mb-[23px]">Katalog</h2>
                         <PanelMenu :model="computedItems" class="w-[250px] bg-transparent" />
                     </div>
 
@@ -81,6 +81,7 @@
     .p-icon{
         width: 14px;
         margin-right: 10px;
+        margin-left: 10px;
     }
     .p-menuitem-text{
         color: #020105;
@@ -91,6 +92,9 @@
         padding: 20px 0;
         background-color: white !important;
     }
-   
+   .p-menuitem-link span{
+        font-size: 12px;
+        font-family: TTInterfaceRegular;
+   }
 </style>
   

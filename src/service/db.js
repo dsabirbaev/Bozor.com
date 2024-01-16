@@ -223,32 +223,32 @@ const category = [
     {   
         id: 1,
         name: "Ozqi ovqat maqsulotlari",
-        arr: ["item1", "item2", "item3"]
+        arr: ["Yog' mahsulotlari", "Ketchup, mayonez, sous, sirka", "Suv/ichimliklar", "Makaron, spagetti va lapsha", "Un maxsulotlari", "Choy/qahva"]
     },
     {   
         id: 2,
         name: "Maishiy mahsulotlar",
-        arr: ["item1", "item2", "item3"]
+        arr: ["Kantselyariya maxsulotlari", "Gigiena", "Yuvish vositalari", "Xo'jallik mollari"]
     },
     {   
         id: 3,
         name: "Maishiy texnika",
-        arr: ["item1", "item2", "item3"]
+        arr: ["Konditsionerlar", "Muzlatgichlar", "Elektrli va mikroto'lqinli pechlar", "Kir yuvish mashinalari", "Oshxona uchun jixozlar"]
     },
     {   
         id: 4,
         name: "Televizor, foto-video va audio",
-        arr: ["item1", "item2", "item3"]
+        arr: ["Televizorlar", "Monitorlar", "Ovoz kuchaytirgichlar"]
     },
     {   
         id: 5,
         name: "Smartfon, telefon, gadjet, aksesuarlar",
-        arr: ["item1", "item2", "item3"]
+        arr: ["Radiotelefonlar", "Telefonlar", "Planshetlar", "Smartfonlar"]
     },
     {   
         id: 6,
         name: "Kompyuter qurilmalari",
-        arr: ["item1", "item2", "item3"]
+        arr: ["Noutbuklar", "Go'zallik va salomatlik", "Avtomobil uchun aksesuarlar"]
     },
 
 ]
