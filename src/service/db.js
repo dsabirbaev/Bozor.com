@@ -252,5 +252,29 @@ const category = [
     },
 
 ]
-export { topProducts, newProducts, category};
+
+const typeCategory = [
+    {
+        id: 1,
+        title: "XO'JALIK MOLLARI",
+        img: "https://api.bozor.com/media/categories/Gc0UjZrbkRXcE1DTnY_-removebg-preview.webp"
+    },
+    {
+        id: 2,
+        title: "ASAL/MURABBO/QUYULTIRILGAN SUT",
+        img: "https://api.bozor.com/media/categories/murabbo1.webp"
+    },
+    {
+        id: 3,
+        title: "TAOMLAR VA YARIM TAYYOR MAXSULOTLAR",
+        img: "https://api.bozor.com/media/categories/yarim-tayyor-ovqatlar.webp"
+    },
+    {
+        id: 4,
+        title: "MAKARON, SPAGETTI VA LAPSHA",
+        img: "https://api.bozor.com/media/categories/makaron.webp"
+    }
+
+]
+export { topProducts, newProducts, category, typeCategory};
 

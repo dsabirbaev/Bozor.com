@@ -1,7 +1,7 @@
 
 
 <template>
-    <section class="pt-10">
+    <section class="pt-10 pb-10">
         <div class="container p-[12px]">
             <div class="catalog-banner h-[185px] flex items-center justify-center flex-col mb-10">
                 <router-link to="/" class="text-white text-[14px] font-['TTInterfaceMedium']" title="Bosh sahifa">
@@ -16,7 +16,7 @@
                     <div class="text-[14px] text-[#020105] font-['TTInterfaceSemiBold'] p-[14px] w-[200px] flex items-center justify-center cursor-pointer bg-white rounded-[12px]">
                         Kategoriyalarni yashirish
                     </div>
-                    <div class="flex items-center gap-x-2 cursor-pointer text-[#e45746]">
+                    <div title="Tozalash" class="flex items-center gap-x-2 cursor-pointer text-[#e45746]">
                         <span class="pi pi-trash text-[16px]"></span>
                         <span class="font-['TTInterfaceMedium'] text-[14px]">Tozalash</span>
                     </div>
@@ -38,7 +38,7 @@
 </template>
   
 <script setup>
-    import { ref, computed} from "vue";
+    import {  computed} from "vue";
 
     //// usevue for title changing
     import { useTitle } from '@vueuse/core'
