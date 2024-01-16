@@ -21,20 +21,54 @@
                         <span class="font-['TTInterfaceMedium'] text-[14px]">Tozalash</span>
                     </div>
                 </div>
+
+                <div>
+                    <div class="bg-white w-[300px] rounded-[20px] py-[32px] px-[24px]">
+                        <h2>Katalog</h2>
+                        <PanelMenu :model="computedItems" class="w-[250px] bg-transparent" />
+                    </div>
+
+                    <div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 </template>
   
 <script setup>
+    import { ref, computed} from "vue";
+
+    //// usevue for title changing
     import { useTitle } from '@vueuse/core'
+
+    //// render data
+    import { category } from "@/service/db";
+
+    //// primevue
+    import PanelMenu from 'primevue/panelmenu';
 
     const title = useTitle()
     title.value = "Bozor.com | Saralanganlar"
     useTitle(title)
+  
+    const computedItems = computed(() => {
+
+        return category.map((d) => ({
+            label: d.name,
+            items: d.arr.map((item) => ({
+                label: item,
+            })),
+        }));
+    });
+
+    
+
+
 </script>
   
-<style lang="scss" scoped>
+<style lang="scss" >
     .catalog-banner{
         background-color: rgb(43, 79, 171);;
         border-radius: 32px;
@@ -43,5 +77,20 @@
         background-position: 100%,0;
         background-size: 600px;
     }
+
+    .p-icon{
+        width: 14px;
+        margin-right: 10px;
+    }
+    .p-menuitem-text{
+        color: #020105;
+        font-family: TTInterfaceMedium;
+        font-size: 14px;
+    }
+    .p-panelmenu-header-action{
+        padding: 20px 0;
+        background-color: white !important;
+    }
+   
 </style>
   

@@ -218,5 +218,39 @@ const newProducts = [
     },      
 ];
 
-export { topProducts, newProducts};
+
+const category = [
+    {   
+        id: 1,
+        name: "Ozqi ovqat maqsulotlari",
+        arr: ["item1", "item2", "item3"]
+    },
+    {   
+        id: 2,
+        name: "Maishiy mahsulotlar",
+        arr: ["item1", "item2", "item3"]
+    },
+    {   
+        id: 3,
+        name: "Maishiy texnika",
+        arr: ["item1", "item2", "item3"]
+    },
+    {   
+        id: 4,
+        name: "Televizor, foto-video va audio",
+        arr: ["item1", "item2", "item3"]
+    },
+    {   
+        id: 5,
+        name: "Smartfon, telefon, gadjet, aksesuarlar",
+        arr: ["item1", "item2", "item3"]
+    },
+    {   
+        id: 6,
+        name: "Kompyuter qurilmalari",
+        arr: ["item1", "item2", "item3"]
+    },
+
+]
+export { topProducts, newProducts, category};
 
